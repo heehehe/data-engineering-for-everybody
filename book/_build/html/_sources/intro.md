@@ -1,7 +1,5 @@
 # Data Engineering for Everybody
-<p align="center">
-  <img src="./img/de4e_main.png" width="1000">
-</p>
+![de4e_main](de4e_main.png)
 
 > DE4E: Data Engineering for Everybody by Pseudo-Lab
 
@@ -13,7 +11,7 @@ This repository aims to give a complete picture from the fundamental data engine
 <br></br>
 
 # Acknowledgement 🙏
-> **DE4E: Data Engineering for Everybody**는 가짜연구소의 DSF 프로그램에서 시작되었습니다. 시작에 앞서 감사의 말씀을 전합니다.
+> **DE4E: Data Engineering for Everybody**는 가짜연구소의 DFS 프로그램에서 시작되었습니다. 시작에 앞서 감사의 말씀을 전합니다.
 
 [가짜연구소](https://pseudo-lab.com/)는 DataCamp의 후원을 받아 Donates 프로그램을 진행하고 있습니다. 프로그램을 통해 구직자, 불완전 취업자, 비영리 연구 과학자, 학생분들께 DataCamp에서 제공하는 다양한 코스와 트랙을 제공합니다. 본 프로젝트는 DataCamp Donates 프로그램 중 하나인 [Data Science Fellowship](https://pseudo-lab.com/c9013228f63342b689a96e18c0db32c8)으로부터 시작되었습니다. 
 
@@ -21,9 +19,7 @@ DE4E는 데이터 분석가, 데이터 과학자, 데이터 엔지니어, 머신
 <br></br>
 
 # DE4E: Data Engineering for Everybody 
-<p align="center">
-  <img src="./img/update_info.png" width="1000">
-</p>
+![update_info](update_info.png)
 
 ---
 
@@ -86,17 +82,6 @@ DE4E는 데이터 분석가, 데이터 과학자, 데이터 엔지니어, 머신
 * Introduction to Cloud Computing
 <br></br>
 
-## Summary
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'pie1': '#a8dba8', 'pie2': '#79bd9a', 'pie3': '#3b8686', 'pie4': '#cff09e', 'pie5': '#800080', 'pie6': '#ff0000', 'pie7': '#FFA500'}}}%%
-pie
-  "Fundamentals" : 11
-  "Intermediate" : 9
-  "Advanced" : 9
-  "Background Knowledge" : 17
-```
-
-<br></br>
 ## Optional Supplementary (Courses, Readings & Media, GitHub)
 ### Course Recommendation 💻
 * [DataCamp Career Track](https://www.datacamp.com/tracks/career)
@@ -120,9 +105,8 @@ pie
 <br></br>
 
 # Contributors 😃
-<a href="https://github.com/pseudo-lab/data-engineering-for-everybody/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=pseudo-lab/data-engineering-for-everybody" />
-</a>
+[![contributors](https://contrib.rocks/image?repo=Pseudo-Lab/data-engineering-for-everybody)](https://github.com/Pseudo-Lab/data-engineering-for-everybody/graphs/contributors)
+
 <br></br>
 
 # About us 👋🏼
