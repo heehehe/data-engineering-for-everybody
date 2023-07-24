@@ -37,7 +37,10 @@ html:
   favicon: 'PseudoLab_logo.png'
   use_issues_button: true
   use_repository_button: true
-  
+  comments:
+    utterances:
+      repo: "heehehe/data-enginnering-for-everybody"
+
 sphinx:
   config:
     html_js_files:
