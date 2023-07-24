@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>(소제목) &#8212; Data Engineering for Everybody</title>
   
@@ -44,7 +44,6 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -53,6 +52,40 @@
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../../_static/togglebutton.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "heehehe/data-enginnering-for-everybody");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js"></script>
@@ -69,7 +102,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="next" title="6. Data Processing Frameworks II" href="../6_data_processing_frameworks_2/template_main_page.html" />
     <link rel="prev" title="5. Data Processing Frameworks I" href="template_main_page.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:language" content="None"/>
   </head>
   
   
@@ -245,7 +278,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       <li><a href="https://github.com/pseudo-lab/data-engineering-for-everybody" target="_blank"
    class="btn btn-sm btn-source-repository-button dropdown-item"
-   title="Source repository"
+   title="소스 저장소"
    data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
@@ -262,7 +295,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       <li><a href="https://github.com/pseudo-lab/data-engineering-for-everybody/issues/new?title=Issue%20on%20page%20%2Fdocs/5_data_processing_frameworks_1/template_sub_page.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
-   title="Open an issue"
+   title="이슈 열기"
    data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
@@ -283,7 +316,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 
 <div class="dropdown dropdown-download-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="이 페이지 다운로드">
     <i class="fas fa-download"></i>
   </button>
   <ul class="dropdown-menu">
@@ -292,7 +325,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       <li><a href="../../_sources/docs/5_data_processing_frameworks_1/template_sub_page.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
-   title="Download source file"
+   title="소스 파일 다운로드"
    data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
@@ -310,7 +343,7 @@ const thebe_selector_output = ".output, .cell_output"
       <li>
 <button onclick="window.print()"
   class="btn btn-sm btn-download-pdf-button dropdown-item"
-  title="Print to PDF"
+  title="PDF로 인쇄"
   data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
@@ -330,7 +363,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 <button onclick="toggleFullScreen()"
   class="btn btn-sm btn-fullscreen-button"
-  title="Fullscreen mode"
+  title="전체 화면으로보기"
   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
   
@@ -385,7 +418,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section id="id1">
-<h1>(소제목)<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h1>
+<h1>(소제목)<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h1>
 </section>
 
     <script type="text/x-thebe-config">
@@ -456,7 +489,7 @@ document.write(`
   <div class="footer-item">
     
 <p class="component-author">
-By PseudoLab
+으로 PseudoLab
 </p>
 
   </div>
